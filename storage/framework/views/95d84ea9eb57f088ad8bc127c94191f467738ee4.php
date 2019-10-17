@@ -1,0 +1,3 @@
+<div class="tab-pane fade" id="tab_8"> <!-- begin: Tab_8 -->
+        Aqui van las estadísticas... 
+</div> <!-- end: Tab_8 -->
