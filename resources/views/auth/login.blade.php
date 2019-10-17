@@ -12,7 +12,7 @@
                     <form name="formLogin" class="form-horizontal" method="POST" action="{{ route('login') }}">
                         {{ csrf_field() }}
                         <div class="header header-primary text-center">
-                            <h4>ACCESOsss AL SISTEMA</h4>
+                            <h4>ACCESO AL SISTEMA</h4>
                         </div>
                         <div class="content">
                             <div class="input-group">

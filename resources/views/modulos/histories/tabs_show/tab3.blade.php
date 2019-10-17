@@ -25,13 +25,13 @@
                             {!! $errors->first('filtro', '<p class="help-block">:message</p>') !!}
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <!-- <div class="col-md-2">
                         <div class="form-group label-floating">
                             <label class="control-label">Coloracion</label>
                             {!! Form::text('coloracion', isset($historyFill) ? $historyFill->coloracion : null,  ['class' => 'form-control','disabled']) !!}
                             {!! $errors->first('coloracion', '<p class="help-block">:message</p>') !!}
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-md-2">
                         <div class="form-group label-floating">
                             <label class="control-label">Uso de Lentes</label>

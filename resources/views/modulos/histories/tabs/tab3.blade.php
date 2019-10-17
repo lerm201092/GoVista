@@ -25,13 +25,13 @@
                             {!! $errors->first('filtro', '<p class="help-block">:message</p>') !!}
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <!-- <div class="col-md-2">
                         <div class="form-group label-floating">
                             <label class="control-label">Coloracion</label>
                             {!! Form::text('coloracion', isset($historyFill) ? $historyFill->coloracion : null,  ['class' => 'form-control']) !!}
                             {!! $errors->first('coloracion', '<p class="help-block">:message</p>') !!}
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-md-2">
                         <div class="form-group label-floating">
                             <label class="control-label">Uso de Lentes</label>
@@ -415,9 +415,10 @@
                             <select class="form-control" id="ho_forico_cerca_cc" name="ho_forico_cerca_cc">
                                 @foreach ($ho as $itemKey => $itemValue)
                                 @if ( isset($historyFill) && $itemValue ==  $historyFill->ho_forico_cerca_cc )
-                                    <option value="{{ $itemKey }}" selected>{{$itemValue}}</option>
+                                    <option value="{{ $itemKey }}" selected>{{$itemValue}}</option>                                    
                                 @else
                                     <option value="{{ $itemKey }}">{{$itemValue}}</option>
+                                    echo {{ $itemValue }}
                                 @endif
                                 @endforeach
                         </select>
@@ -676,9 +677,9 @@
                     <div class="col-md-6">
                         <h6 class="text-center">DISTANCIA INTERPUPILAR (Milimetros)</h6>
                     </div>
-                    <div class="col-md-6">
+                    <!-- <div class="col-md-6">
                         <h6 class="text-center">TAMAÑO PUPILA (Milimetros)</h6>
-                    </div>
+                    </div> -->
                 </div>
 
                 <div class="row">
@@ -694,12 +695,12 @@
                     </div>
                     <div class="col-md-2">
                     </div>
-                    <div class="col-md-2">
+                    <!-- <div class="col-md-2">
                         <div class="form-group label-floating">
                             {!! Form::text('pupila', isset($historyFill) ? $historyFill->pupila : null, ['class' => 'form-control']) !!}
                             {!! $errors->first('pupila', '<p class="help-block">:message</p>') !!}
                         </div>
-                    </div>
+                    </div> -->
                 </div>
 
                 <div class="row">

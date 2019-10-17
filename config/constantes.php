@@ -235,9 +235,10 @@ return [
 	'ho' => [
 	    '' => '',
 		'E' => 'E',	
-		'EXTRA' => 'EXTRA',
+		'EF' => 'EF',
 		'E(T)A' => 'E(T)A',
-		'E(T)D' => 'E(T)D',
+        'E(T)D' => 'E(T)D',
+        'E(T)I' => 'E(T)I',
 		'E(T)' => 'E(T)',
 		'ETA' => 'ETA',
 		'ETD' => 'ETD',

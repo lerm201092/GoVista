@@ -106,7 +106,7 @@
                 <div class="row">
                     <div class="col-md-2">
                         <br>
-                        <h6 style="background:#6d4c41 !important;color:white !important;" class="text-center"><b><u>Tecnica Usada:</u></b></h6>
+                        <h6 style="background:#6d4c41 !important;color:white !important;" class="text-center"><b><u>COMPENSADA:</u></b></h6>
                     </div>
                 </div>
 
@@ -249,7 +249,7 @@
 
                 <hr>
 
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-md-2">
                         <br>
                         <h6 style="background:#6d4c41 !important;color:white !important;" class="text-center"><b><u>Tipo subjetivo:</u></b></h6>
@@ -463,7 +463,7 @@
                         </select>
                         </div>
                     </div>
-                </div>
+                </div> -->
 				
 				<div class="row">
                     <div class="col-md-2">
