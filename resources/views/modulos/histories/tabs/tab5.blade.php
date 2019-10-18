@@ -16,9 +16,9 @@
             <div class="col-md-2">
                 <h6 style="font-weight: bold !important;color: black !important;" class="text-center">Post Imagenes</h6>
             </div>
-            <div class="col-md-2">
+            <!-- <div class="col-md-2">
                 <h6 style="font-weight: bold !important;color: black !important;" class="text-center">Anomalia</h6>
-            </div>
+            </div> -->
         </div>
 
 
@@ -88,7 +88,7 @@
                         </select>
                 </div>
             </div>
-            <div class="col-md-2">
+            <!-- <div class="col-md-2">
                 <div class="form-group label-floating">                    
                     <select class="form-control" id="ang_anomalia" name="ang_anomalia">
                                 @foreach ($angulo as $itemKey => $itemValue)
@@ -100,7 +100,7 @@
                                 @endforeach
                         </select>
                 </div>
-            </div>
+            </div> -->
         </div>
 
         <div class="row">

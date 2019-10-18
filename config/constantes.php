@@ -256,7 +256,7 @@ return [
 	've' => [
 	    '' => '',
 		'E' => 'E',	
-		'EXTRA' => 'EXTRA',
+		'EF' => 'EF',
 		'E(T)A' => 'E(T)A',
 		'E(T)D' => 'E(T)D',
 		'E(T)' => 'E(T)',
@@ -401,20 +401,20 @@ return [
     ],
 	
 	'Bagolini' => [
-	    '' => '',
-        'Correspondencia Sensorial Normal' => 'Correspondencia Sensorial Normal',
+		'' => '',
+		'Fusion Plana Normal' => 'Fusion Plana Normal',
         'Supresion OD' => 'Supresion OD',
-		'Supresion OI' => 'Supresión OI',
-		'Diplopia' => 'Diplopia',
-		'Supresion Central con Fusion Periferica' => 'Supresion Central con Fusion Periferica',
-		'Correspondencia Sensorial Anomala' => 'Correspondencia Sensorial Anomala',
-		'Supresion Central' => 'Supresion Central'
+		'Supresion OI ' => 'Supresion OI ',
+		'Diplopia Descruzada/Desviacion ENDO' => 'Diplopia Descruzada/Desviacion ENDO',
+		'Diplopia Cruzada/Desviacion EXO' => 'Diplopia Cruzada/Desviacion EXO'	
     ],	
 
 	'PostImagenes' => [
 	    '' => '',
         'Correspondecia Retiniana Normal CRN' => 'Correspondecia Retiniana Normal CRN',
-        'Correspondecia Retiniana Anomala CRN' => 'Correspondecia Retiniana Anomala CRN'
+        'Correspondecia Retiniana Anomala CRN' => 'Correspondecia Retiniana Anomala CRN',
+        'Supresion Alternante OD' => 'Supresion Alternante OD',
+		'Supresion Alternante OI ' => 'Supresion Alternante OI ',
     ],
 	
 	'CorrespondenciaSensorial' => [
