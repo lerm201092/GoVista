@@ -106,8 +106,20 @@
                 <div class="row">
                     <div class="col-md-2">
                         <br>
-                        <h6 style="background:#6d4c41 !important;color:white !important;" class="text-center"><b><u>COMPENSADA:</u></b></h6>
+                        <h6 style="background:#6d4c41 !important;color:white !important;" class="text-center"><b><u>TECNICA USADA:</u></b></h6>
                     </div>
+
+                    <!-- ********************************************************************************************* -->
+
+                    <div class="col-md-10">
+                        <div class="form-group label-floating">
+                            {!! Form::text('od_obser_tecnica', isset($historyFill) ? $historyFill->od_obser_tecnica : null,  ['class' => 'form-control']) !!}
+                            {!! $errors->first('od_obser_tecnica', '<p class="help-block">:message</p>') !!}
+                        </div>
+                    </div>
+
+                    <!-- ********************************************************************************************* -->
+
                 </div>
 
                 <div style="background:#eee !important;color:black !important;" class="row">

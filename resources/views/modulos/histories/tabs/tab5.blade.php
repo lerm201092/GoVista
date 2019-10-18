@@ -144,7 +144,7 @@
 
         <div class="row">
             <div class="col-md-12">
-                <h6 style="font-weight: bold !important;color: black !important;" class="text-center"><b>Estereopsis:</b></h6>
+                <h6 style="font-weight: bold !important;color: black !important; background: #eeeeee; padding: 10px" class="text-center"><b>Estereopsis:</b></h6>
             </div>
         </div>
 
@@ -213,25 +213,117 @@
 
 
         <div class="row">
-            <div class="col-md-2">
-                <h6 style="font-weight: bold !important;color: black !important;" class="text-left"><br>AA OD</h6>
-            </div>
-            <div class="col-md-4">
-                <div class="form-group label-floating">
-                    {!! Form::text('aa_od', isset($historyFill) ? $historyFill->aa_od : null,  ['class' => 'form-control']) !!}
-                    {!! $errors->first('aa_od', '<p class="help-block">:message</p>') !!}
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h6 style="font-weight: bold !important;color: black !important;" class="text-left"><br>AA OD - VL</h6>
+                    </div>
+                    <div class="col-md-12">
+                        <table class="table table-bordered table-sm" style="width:90%;">
+                            <tr>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>                              
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-2">
-                <h6 style="font-weight: bold !important;color: black !important;" class="text-left"><br>AA OI</h6>
-            </div>
-            <div class="col-md-4">
-                <div class="form-group label-floating">
-                    {!! Form::text('aa_oi', isset($historyFill) ? $historyFill->aa_oi : null,  ['class' => 'form-control']) !!}
-                    {!! $errors->first('aa_oi', '<p class="help-block">:message</p>') !!}
+
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h6 style="font-weight: bold !important;color: black !important;" class="text-left"><br>AA OI - VL</h6>
+                    </div>
+                    <div class="col-md-12">
+                        <table class="table table-bordered table-sm" >
+                            <tr>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>                              
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
-            </div>
+            </div>            
         </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h6 style="font-weight: bold !important;color: black !important;" class="text-left"><br>AA OD - VP</h6>
+                    </div>
+                    <div class="col-md-12">
+                        <table class="table table-bordered table-sm" style="width:90%;">
+                            <tr>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>                              
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h6 style="font-weight: bold !important;color: black !important;" class="text-left"><br>AA OI - VP</h6>
+                    </div>
+                    <div class="col-md-12">
+                        <table class="table table-bordered table-sm">
+                            <tr>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>                              
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                                <td><input type="text" style="width:100%; border-style:none; text-align:center;"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>            
+        </div>
+
 
         <div class="row">
             <div class="col-md-2">
